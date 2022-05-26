@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5352" started-at="2022-05-26T19:18:45Z" finished-at="2022-05-26T19:18:51Z">
+  <suite name="Default suite" duration-ms="3368" started-at="2022-05-26T19:27:01Z" finished-at="2022-05-26T19:27:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5352" started-at="2022-05-26T19:18:45Z" finished-at="2022-05-26T19:18:51Z">
-      <class name="testscript.GetRequest">
-        <test-method status="PASS" signature="getRequest()[pri:0, instance:testscript.GetRequest@2698dc7]" name="getRequest" duration-ms="5337" started-at="2022-05-26T15:18:45Z" finished-at="2022-05-26T15:18:51Z">
+    <test name="Default test" duration-ms="3368" started-at="2022-05-26T19:27:01Z" finished-at="2022-05-26T19:27:04Z">
+      <class name="testscript.PostRequestUsingFile">
+        <test-method status="PASS" signature="postRequestUsingFile()[pri:0, instance:testscript.PostRequestUsingFile@2698dc7]" name="postRequestUsingFile" duration-ms="3354" started-at="2022-05-26T15:27:01Z" finished-at="2022-05-26T15:27:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getRequest -->
-      </class> <!-- testscript.GetRequest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- postRequestUsingFile -->
+      </class> <!-- testscript.PostRequestUsingFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
