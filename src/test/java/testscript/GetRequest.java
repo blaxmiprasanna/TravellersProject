@@ -8,8 +8,10 @@ import io.restassured.response.Response;
 import payloadFiles.JSONGetRequest;
 import utilities.HelperClass;
 
-public class GetRequest {
+@Listeners(extendedReport.ExtentListeners.class)
 
+public class GetRequest {
+	
 	@Test
 	public void getRequest() {
 		
