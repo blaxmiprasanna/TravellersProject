@@ -15,6 +15,7 @@ public class PostRequestUsingFile extends ExtentListeners{
 	public void postRequestUsingFile() throws Exception{
 		
 		testReport.get().log(Status.INFO, "PostRequestUsingFile test case started");
+		
 		String file= "C:\\Users\\blaxm\\workspace\\StripeRestAssuredAPI\\resource\\json.txt";
 		
 		Response response=payloadFiles.PayloadToCreatePostRequestWithFile.payloadToCreatePostRequestWithFile(HelperClass.readDataFromPropertyFile().getKey(),
