@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="testscript.GetRequest"/>
+      <class name="testscript.PostRequestUsingFile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

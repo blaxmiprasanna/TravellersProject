@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\blaxm\AppData\Local\Temp\testng-eclipse--2047156444\testng-customsuite.xml</span>
+                    <span>C:\Users\blaxm\AppData\Local\Temp\testng-eclipse--154593573\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testscript.GetRequest" hash-for-method="getRequest">getRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testscript.PostRequestUsingFile" hash-for-method="postRequestUsingFile">postRequestUsingFile</a> <!-- method navigator-link -->
@@ -119,6 +124,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testscript.GetRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRequest">
+                  </a> <!-- getRequest -->
+                  <span class="method-name">getRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testscript.PostRequestUsingFile</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -134,7 +154,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\blaxm\AppData\Local\Temp\testng-eclipse--2047156444\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\blaxm\AppData\Local\Temp\testng-eclipse--154593573\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,7 +163,19 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testscript.GetRequest&quot;/&gt;
+      &lt;class name=&quot;utilities.PropertyClass&quot;/&gt;
       &lt;class name=&quot;testscript.PostRequestUsingFile&quot;/&gt;
+      &lt;class name=&quot;payloadFiles.JSONGetRequest&quot;/&gt;
+      &lt;class name=&quot;payloadFiles.PayloadToCreatePostRequest&quot;/&gt;
+      &lt;class name=&quot;utilities.HelperClass&quot;/&gt;
+      &lt;class name=&quot;extendedReport.ExtentListeners&quot;/&gt;
+      &lt;class name=&quot;utilities.ReadPayLoadData&quot;/&gt;
+      &lt;class name=&quot;jsonRequestAndResponse.JsonPostRequest&quot;/&gt;
+      &lt;class name=&quot;utilities.CreatePlaceIdAPIUsingPostRequest&quot;/&gt;
+      &lt;class name=&quot;utilities.PojoClass&quot;/&gt;
+      &lt;class name=&quot;payloadFiles.PayloadToCreatePostRequestWithFile&quot;/&gt;
+      &lt;class name=&quot;extendedReport.ExtentManager&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -157,7 +189,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (13 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,16 +215,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'postRequestUsingFile')
-data.setCell(0, 2, 'testscript.PostRequestUsingFile')
-data.setCell(0, 3, 3354);
+data.setCell(0, 1, 'getRequest')
+data.setCell(0, 2, 'testscript.GetRequest')
+data.setCell(0, 3, 6108);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'postRequestUsingFile')
+data.setCell(1, 2, 'testscript.PostRequestUsingFile')
+data.setCell(1, 3, 1458);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -218,10 +254,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">testscript.GetRequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getRequest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">testscript.PostRequestUsingFile</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">postRequestUsingFile</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">6111 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
