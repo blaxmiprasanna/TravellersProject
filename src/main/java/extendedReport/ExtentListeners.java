@@ -25,16 +25,11 @@ public class ExtentListeners implements ITestListener {
 	
 
 	public void onTestStart(ITestResult result) {
-
-	
 		ExtentTest test = extent.createTest(result.getTestClass().getName()+"     @TestCase : "+result.getMethod().getMethodName());
         testReport.set(test);
-        
-
 	}
 
 	public void onTestSuccess(ITestResult result) {
-
 		String methodName=result.getMethod().getMethodName();
 		String logText="<b>"+"TEST CASE:- "+ methodName.toUpperCase()+ " PASSED"+"</b>";		
 		Markup m=MarkupHelper.createLabel(logText, ExtentColor.GREEN);
@@ -42,7 +37,6 @@ public class ExtentListeners implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		
 		String excepionMessage=Arrays.toString(result.getThrowable().getStackTrace());
 		testReport.get().fail("<details>" + "<summary>" + "<b>" + "<font color=" + "red>" + "Exception Occured:Click to see"
 				+ "</font>" + "</b >" + "</summary>" +excepionMessage.replaceAll(",", "<br>")+"</details>"+" \n");
