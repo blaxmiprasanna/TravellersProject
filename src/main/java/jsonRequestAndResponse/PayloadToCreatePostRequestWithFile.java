@@ -1,4 +1,4 @@
-package payloadFiles;
+package jsonRequestAndResponse;
 
 import java.io.File;
 

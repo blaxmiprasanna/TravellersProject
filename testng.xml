@@ -5,6 +5,7 @@
     <classes>
       <class name="testscript.GetRequest"/>
       <class name="testscript.PostRequestUsingFile"/>
+      <class name="testscript.DeleteRequest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

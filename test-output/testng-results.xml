@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7581" started-at="2022-05-26T19:31:37Z" finished-at="2022-05-26T19:31:44Z">
+  <suite name="Suite" duration-ms="10553" started-at="2022-05-27T02:36:59Z" finished-at="2022-05-27T02:37:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7581" started-at="2022-05-26T19:31:37Z" finished-at="2022-05-26T19:31:44Z">
+    <test name="Test" duration-ms="10553" started-at="2022-05-27T02:36:59Z" finished-at="2022-05-27T02:37:10Z">
+      <class name="testscript.DeleteRequest">
+        <test-method status="PASS" signature="deleteRequest()[pri:0, instance:testscript.DeleteRequest@74294adb]" name="deleteRequest" duration-ms="3711" started-at="2022-05-26T22:37:06Z" finished-at="2022-05-26T22:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRequest -->
+      </class> <!-- testscript.DeleteRequest -->
       <class name="testscript.GetRequest">
-        <test-method status="PASS" signature="getRequest()[pri:0, instance:testscript.GetRequest@6c9f5c0d]" name="getRequest" duration-ms="6108" started-at="2022-05-26T15:31:37Z" finished-at="2022-05-26T15:31:43Z">
+        <test-method status="PASS" signature="getRequest()[pri:0, instance:testscript.GetRequest@5e955596]" name="getRequest" duration-ms="5673" started-at="2022-05-26T22:36:59Z" finished-at="2022-05-26T22:37:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRequest -->
       </class> <!-- testscript.GetRequest -->
       <class name="testscript.PostRequestUsingFile">
-        <test-method status="PASS" signature="postRequestUsingFile()[pri:0, instance:testscript.PostRequestUsingFile@276438c9]" name="postRequestUsingFile" duration-ms="1458" started-at="2022-05-26T15:31:43Z" finished-at="2022-05-26T15:31:44Z">
+        <test-method status="PASS" signature="postRequestUsingFile()[pri:0, instance:testscript.PostRequestUsingFile@58a90037]" name="postRequestUsingFile" duration-ms="1154" started-at="2022-05-26T22:37:05Z" finished-at="2022-05-26T22:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRequestUsingFile -->
       </class> <!-- testscript.PostRequestUsingFile -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

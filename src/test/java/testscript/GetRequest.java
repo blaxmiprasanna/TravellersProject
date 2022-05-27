@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 import extendedReport.ExtentListeners;
 import io.restassured.response.Response;
-import payloadFiles.JSONGetRequest;
+import jsonRequestAndResponse.JSONGetRequest;
 import utilities.CreatePlaceIdAPIUsingPostRequest;
 import utilities.HelperClass;
 

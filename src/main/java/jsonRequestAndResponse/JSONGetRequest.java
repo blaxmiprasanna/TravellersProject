@@ -1,4 +1,4 @@
-package payloadFiles;
+package jsonRequestAndResponse;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
