@@ -26,6 +26,7 @@ public class PostRequestUsingFile extends ExtentListeners{
 		
 		testReport.get().log(Status.PASS, "place is is generated");
 		//test
+		System.out.println("The test case is completed");
 	}
 	
 	
