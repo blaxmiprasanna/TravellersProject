@@ -25,6 +25,7 @@ public class PostRequestUsingFile extends ExtentListeners{
 		System.out.println(response.jsonPath().get("place_id"));
 		
 		testReport.get().log(Status.PASS, "place is is generated");
+		//test
 	}
 	
 	
