@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13878" started-at="2022-05-27T02:44:43Z" finished-at="2022-05-27T02:44:57Z">
+  <suite name="Suite" duration-ms="16872" started-at="2022-05-29T22:49:35Z" finished-at="2022-05-29T22:49:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13878" started-at="2022-05-27T02:44:43Z" finished-at="2022-05-27T02:44:57Z">
+    <test name="Test" duration-ms="16872" started-at="2022-05-29T22:49:35Z" finished-at="2022-05-29T22:49:52Z">
       <class name="testscript.DeleteRequest">
-        <test-method status="PASS" signature="deleteRequest()[pri:0, instance:testscript.DeleteRequest@130f889]" name="deleteRequest" duration-ms="3628" started-at="2022-05-26T22:44:53Z" finished-at="2022-05-26T22:44:57Z">
+        <test-method status="PASS" signature="deleteRequest()[pri:0, instance:testscript.DeleteRequest@130f889]" name="deleteRequest" duration-ms="4502" started-at="2022-05-29T18:49:48Z" finished-at="2022-05-29T18:49:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteRequest -->
       </class> <!-- testscript.DeleteRequest -->
       <class name="testscript.GetRequest">
-        <test-method status="PASS" signature="getRequest()[pri:0, instance:testscript.GetRequest@74294adb]" name="getRequest" duration-ms="5417" started-at="2022-05-26T22:44:43Z" finished-at="2022-05-26T22:44:48Z">
+        <test-method status="PASS" signature="getRequest()[pri:0, instance:testscript.GetRequest@74294adb]" name="getRequest" duration-ms="6320" started-at="2022-05-29T18:49:35Z" finished-at="2022-05-29T18:49:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRequest -->
       </class> <!-- testscript.GetRequest -->
       <class name="testscript.UpdateRequest">
-        <test-method status="PASS" signature="updateRequest()[pri:0, instance:testscript.UpdateRequest@50de0926]" name="updateRequest" duration-ms="3662" started-at="2022-05-26T22:44:49Z" finished-at="2022-05-26T22:44:53Z">
+        <test-method status="PASS" signature="updateRequest()[pri:0, instance:testscript.UpdateRequest@50de0926]" name="updateRequest" duration-ms="4506" started-at="2022-05-29T18:49:43Z" finished-at="2022-05-29T18:49:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateRequest -->
       </class> <!-- testscript.UpdateRequest -->
       <class name="testscript.PostRequestUsingFile">
-        <test-method status="PASS" signature="postRequestUsingFile()[pri:0, instance:testscript.PostRequestUsingFile@70a9f84e]" name="postRequestUsingFile" duration-ms="1157" started-at="2022-05-26T22:44:48Z" finished-at="2022-05-26T22:44:49Z">
+        <test-method status="PASS" signature="postRequestUsingFile()[pri:0, instance:testscript.PostRequestUsingFile@70a9f84e]" name="postRequestUsingFile" duration-ms="1532" started-at="2022-05-29T18:49:42Z" finished-at="2022-05-29T18:49:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRequestUsingFile -->
